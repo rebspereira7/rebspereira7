@@ -1,0 +1,30 @@
+Nakula is a simple and clean template suitable for any sort of portfolio.
+
+featured credit
+============================
+
+1. http://getbootstrap.com/
+2. http://flatuicolors.com/
+3. https://www.google.com/fonts
+4. http://demo.phapsu.com/jquery.elastic_grid/
+5. http://owlgraphic.com/owlcarousel/
+6. http://lokeshdhakar.com/projects/lightbox2/
+7. http://fortawesome.github.io/Font-Awesome/icons/
+8. http://jawaipsum.com/
+
+photos credit
+============================
+
+1. http://www.behance.net/sredainterior
+
+Change Log Updated 
+============================
+
+1. Update to Bootstrap v3.2.0
+2. Blog Type #1
+3. Blog Type #2
+4. Single Blog
+5. Login Page
+6. Register Page
+7. Forgot Password Page
+8. FAQ Page
