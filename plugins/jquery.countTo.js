@@ -37,7 +37,7 @@
 			function updateTimer() {
 				value += increment;
 				loopCount++;
-				
+
 				render(value);
 
 				if (typeof(settings.onUpdate) == 'function') {

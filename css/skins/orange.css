@@ -26,7 +26,7 @@ mark,
   color: #ffffff;
 }
 .text-default {
-  color: #53b02c;
+  color: #e07e27;
 }
 /* Tables
 ---------------------------------- */
@@ -59,7 +59,7 @@ mark,
 }
 /*Transparent Header*/
 .transparent-header header.header.dark.transparent-header-on {
-  background-color: transparent;
+  background-color: rgba(65, 60, 56, 0.8);
   border-top-color: rgba(38, 35, 32, 0.5);
 }
 /*Fixed Navigation*/

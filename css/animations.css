@@ -7,62 +7,16 @@ Copyright (c) 2014 Daniel Eden
 
 @import url(animate.css);
 
+/* Theme Name: The Project - Responsive Website Template
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Author e-mail:htmlcoder.me@gmail.com
+Version:1.1.0
+Created:December 2014
+License URI:http://support.wrapbootstrap.com/
+File Description: Animations */
 
 /*Custom Animations*/
-
- .pv-30:hover .animado {
-  
-  -webkit-animation:  
-  rubberBand 2.5s 0s linear,
-  shake 2.5s 2.5s linear,
-  flash 2.5s 5s linear,
-  
-  swing 2.5s 7.5s linear,
-  rollIn 2.5s 10s linear,
-  rotateInDownRight 2.5s 12.5s linear,
-  fadeOut 2.5s 15s linear ; 
-
-  -moz-animation:
-  rubberBand 2.5s 0s linear,
-  shake 2.5s 2.5s linear,
-  flash 2.5s 5s linear,
-  
-  swing 2.5s 7.5s linear,
-  rollIn 2.5s 10s linear,
-  rotateInDownRight 2.5s 12.5s linear,
-  fadeOut 2.5s 15s linear ;  
-
-  animation: 
- rubberBand 2.5s 0s linear,
-  shake 2.5s 2.5s linear,
-  flash 2.5s 5s linear,
-  
-  swing 2.5s 7.5s linear,
-  rollIn 2.5s 10s linear,
-  rotateInDownRight 2.5s 12.5s linear,
-  fadeOut 2.5s 15s linear ;  
-
-  -ms-animation:
-  rubberBand 2.5s 0s linear,
-  shake 2.5s 2.5s linear,
-  flash 2.5s 5s linear,
-  
-  swing 2.5s 7.5s linear,
-  rollIn 2.5s 10s linear,
-  rotateInDownRight 2.5s 12.5s linear,
-  fadeOut 2.5s 15s linear ; 
-
-  -o-animation:
-  rubberBand 2.5s 0s linear,
-  shake 2.5s 2.5s linear,
-  flash 2.5s 5s linear,
-  
-  swing 2.5s 7.5s linear,
-  rollIn 2.5s 10s linear,
-  rotateInDownRight 2.5s 12.5s linear,
-  fadeOut 2.5s 15s linear ;   
-}
-
 
 @-webkit-keyframes fadeInDownSmall {
   0% {
