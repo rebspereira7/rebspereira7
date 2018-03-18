@@ -3,7 +3,7 @@ self.addEventListener('install', function(e) {
         caches.open('airhorner').then(function(cache) {
             return cache.addAll([
                 'index.html',
-                '/css/style.css'
+                'css/style.css'
             ]);
         })
     );
