@@ -1,14 +1,3 @@
-self.addEventListener('install', function(e) {
-    e.waitUntil(
-        caches.open('Barbearia').then(function(cache) {
-            return cache.addAll([
-                'index.html',
-                'css/style.css'
-            ]);
-        })
-    );
-});
-
 self.addEventListener('fetch', function(event) {
     console.log('Fetch event for ', event.request.url);
     event.respondWith(

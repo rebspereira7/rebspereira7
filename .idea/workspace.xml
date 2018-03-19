@@ -43,8 +43,8 @@
           <file leaf-file-name="sw.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sw.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -91,7 +91,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="4" />
     <option name="width" value="1509" />
     <option name="height" value="865" />
@@ -168,15 +168,15 @@
       <workItem from="1521413652723" duration="2863000" />
       <workItem from="1521464485318" duration="1107000" />
       <workItem from="1521466067036" duration="308000" />
-      <workItem from="1521466403579" duration="3363000" />
+      <workItem from="1521466403579" duration="3556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19255000" />
+    <option name="totallyTimeSpent" value="19448000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="0" width="1509" height="865" extended-state="0" />
+    <frame x="4" y="0" width="1509" height="865" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06286127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -368,8 +368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
