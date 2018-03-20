@@ -16,3 +16,5 @@ self.addEventListener('fetch', function(event) {
         })
     );
 });
+
+serviceWorkerRegistration.showNotification(title, options);
