@@ -24,7 +24,7 @@
   "theme_color": "#2F3BA2",
 
   "body": "Did you make a $1,000,000 purchase at Dr. Evil...",
-  "icon": "images/ccard.png",
+  "icon": "images/ccards.png",
   "vibrate": [200, 100, 200, 100, 200, 100, 400],
   "tag": "request",
   "actions": [
