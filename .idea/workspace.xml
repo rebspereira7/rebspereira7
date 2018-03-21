@@ -19,8 +19,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="237">
-                  <caret line="1395" column="0" lean-forward="false" selection-start-line="1395" selection-start-column="0" selection-end-line="1395" selection-end-column="0" />
+                <state relative-caret-position="594">
+                  <caret line="1422" column="19" lean-forward="false" selection-start-line="1422" selection-start-column="19" selection-end-line="1422" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -33,8 +33,8 @@
           <file leaf-file-name="manifest.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/manifest.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -79,9 +79,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index-star.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sw.js" />
         <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -151,12 +151,12 @@
       <workItem from="1521466067036" duration="308000" />
       <workItem from="1521466403579" duration="5194000" />
       <workItem from="1521551401772" duration="5679000" />
-      <workItem from="1521649878862" duration="3202000" />
+      <workItem from="1521649878862" duration="3692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29967000" />
+    <option name="totallyTimeSpent" value="30457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="0" width="1509" height="865" extended-state="0" />
@@ -373,14 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="1395" column="0" lean-forward="false" selection-start-line="1395" selection-start-column="0" selection-end-line="1395" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sw.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -391,8 +383,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="1422" column="19" lean-forward="false" selection-start-line="1422" selection-start-column="19" selection-end-line="1422" selection-end-column="19" />
           <folding />
         </state>
       </provider>
