@@ -20,7 +20,7 @@
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="407">
-                  <caret line="1408" column="69" lean-forward="false" selection-start-line="1408" selection-start-column="21" selection-end-line="1408" selection-end-column="73" />
+                  <caret line="1408" column="8" lean-forward="false" selection-start-line="1408" selection-start-column="8" selection-end-line="1408" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -43,8 +43,8 @@
           <file leaf-file-name="sw.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sw.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="587">
-                  <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+                <state relative-caret-position="298">
+                  <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -80,8 +80,8 @@
       <list>
         <option value="$PROJECT_DIR$/index-star.html" />
         <option value="$PROJECT_DIR$/manifest.json" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sw.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -151,12 +151,12 @@
       <workItem from="1521466067036" duration="308000" />
       <workItem from="1521466403579" duration="5194000" />
       <workItem from="1521551401772" duration="5679000" />
-      <workItem from="1521649878862" duration="1665000" />
+      <workItem from="1521649878862" duration="1699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28430000" />
+    <option name="totallyTimeSpent" value="28464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="0" width="1509" height="865" extended-state="0" />
@@ -381,18 +381,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/sw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="1408" column="69" lean-forward="false" selection-start-line="1408" selection-start-column="21" selection-end-line="1408" selection-end-column="73" />
+        <state relative-caret-position="298">
+          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sw.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="407">
+          <caret line="1408" column="8" lean-forward="false" selection-start-line="1408" selection-start-column="8" selection-end-line="1408" selection-end-column="8" />
           <folding />
         </state>
       </provider>
