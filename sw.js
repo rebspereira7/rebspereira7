@@ -16,39 +16,38 @@ self.addEventListener('fetch', function(event) {
         })
     );
 });
+const applicationServerPublicKey = 'BJpglS7vtDNKtQaNp__T4ZALnKC_1zd5zzlrxL1uQZc-1k09iNwkn7i3085CpZcOicm4fsePrLejr8oDIK8dHvU';
 
-function askPermission() {
-    return new Promise(function(resolve, reject) {
-        const permissionResult = Notification.requestPermission(function(result) {
-            resolve(result);
-        });
+function initialiseUI() {
+    // Set the initial subscription value
+    swRegistration.pushManager.getSubscription()
+        .then(function(subscription) {
+            isSubscribed = !(subscription === null);
 
-        if (permissionResult) {
-            permissionResult.then(resolve, reject);
-        }
-    })
-        .then(function(permissionResult) {
-            if (permissionResult !== 'granted') {
-                throw new Error('We weren\'t granted permission.');
+            if (isSubscribed) {
+                console.log('User IS subscribed.');
+            } else {
+                console.log('User is NOT subscribed.');
             }
+
+            updateBtn();
         });
 }
 
+function updateBtn() {
+    if (isSubscribed) {
+        pushButton.textContent = 'Disable Push Messaging';
+    } else {
+        pushButton.textContent = 'Enable Push Messaging';
+    }
 
-function subscribeUserToPush() {
-    return navigator.serviceWorker.register('service-worker.js')
-        .then(function(registration) {
-            const subscribeOptions = {
-                userVisibleOnly: true,
-                applicationServerKey: urlBase64ToUint8Array(
-                    'BEl62iUYgUivxIkv69yViEuiBIa-Ib9-SkvMeAtA3LFgDzkrxZJjSgSnfckjBJuBkr3qBUYIHBQFLXYp5Nksh8U'
-                )
-            };
-
-            return registration.pushManager.subscribe(subscribeOptions);
-        })
-        .then(function(pushSubscription) {
-            console.log('Received PushSubscription: ', JSON.stringify(pushSubscription));
-            return pushSubscription;
-        });
+    pushButton.disabled = false;
 }
+
+navigator.serviceWorker.register('sw.js')
+    .then(function(swReg) {
+        console.log('Service Worker is registered', swReg);
+
+        swRegistration = swReg;
+        initialiseUI();
+    })
