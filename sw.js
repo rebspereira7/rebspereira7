@@ -16,31 +16,5 @@ self.addEventListener('fetch', function(event) {
         })
     );
 });
-const applicationServerPublicKey = 'BJpglS7vtDNKtQaNp__T4ZALnKC_1zd5zzlrxL1uQZc-1k09iNwkn7i3085CpZcOicm4fsePrLejr8oDIK8dHvU';
 
-function initialiseUI() {
-    // Set the initial subscription value
-    swRegistration.pushManager.getSubscription()
-        .then(function(subscription) {
-            isSubscribed = !(subscription === null);
-
-            if (isSubscribed) {
-                console.log('User IS subscribed.');
-            } else {
-                console.log('User is NOT subscribed.');
-            }
-
-            updateBtn();
-        });
-}
-
-function updateBtn() {
-    if (isSubscribed) {
-        pushButton.textContent = 'Disable Push Messaging';
-    } else {
-        pushButton.textContent = 'Enable Push Messaging';
-    }
-
-    pushButton.disabled = false;
-}
 
